@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ServiceAutoMVP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ee6ab70055cc2f98a6c4d4df9de5f6f62df7e5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ServiceAutoMVP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ServiceAutoMVP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

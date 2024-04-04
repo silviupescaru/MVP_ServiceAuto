@@ -25,3 +25,4 @@ D:\Facultate\ServiceAutoMVP\ServiceAutoMVP\obj\Debug\net8.0-windows\refint\Servi
 D:\Facultate\ServiceAutoMVP\ServiceAutoMVP\obj\Debug\net8.0-windows\ServiceAutoMVP.pdb
 D:\Facultate\ServiceAutoMVP\ServiceAutoMVP\obj\Debug\net8.0-windows\ServiceAutoMVP.genruntimeconfig.cache
 D:\Facultate\ServiceAutoMVP\ServiceAutoMVP\obj\Debug\net8.0-windows\ref\ServiceAutoMVP.dll
+D:\Facultate\ServiceAutoMVP\ServiceAutoMVP\obj\Debug\net8.0-windows\ServiceAutoMVP.sourcelink.json

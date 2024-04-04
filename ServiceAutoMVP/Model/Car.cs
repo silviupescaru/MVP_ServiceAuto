@@ -27,6 +27,7 @@ namespace ServiceAutoMVP.Model
             this.fuel = fuel;
         }
 
+
         public Car(Car car)
         {
             this.carID = car.carID;

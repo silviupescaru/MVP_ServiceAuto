@@ -43,7 +43,10 @@ namespace ServiceAutoMVP_Test
             bool result3 = repository.CommandSQL(c3);
             bool result4 = repository.CommandSQL(c4);
             bool result5 = repository.CommandSQL(c5);
-            bool result6 = repository.CommandSQL(c6);   
+            bool result6 = repository.CommandSQL(c6);
+
+            string deleteSQL = "delete from Car where carID > 10";
+            repository.CommandSQL(deleteSQL);
 
             Assert.IsTrue(result1);
             Assert.IsTrue(result2);
@@ -60,6 +63,9 @@ namespace ServiceAutoMVP_Test
             string selectSQL = "select * from Car order by owner";
 
             DataTable result = repository.GetTable(selectSQL);
+
+            string deleteSQL = "delete from Car where carID > 10";
+            repository.CommandSQL(deleteSQL);
 
             Assert.IsNotNull(result);
             Assert.AreEqual(5, result.Columns.Count);

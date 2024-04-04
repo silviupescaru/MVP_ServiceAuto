@@ -109,3 +109,4 @@ D:\Facultate\ServiceAutoMVP\ServiceAutoMVP-Test\obj\Debug\net8.0-windows\refint\
 D:\Facultate\ServiceAutoMVP\ServiceAutoMVP-Test\obj\Debug\net8.0-windows\ServiceAutoMVP-Test.pdb
 D:\Facultate\ServiceAutoMVP\ServiceAutoMVP-Test\obj\Debug\net8.0-windows\ServiceAutoMVP-Test.genruntimeconfig.cache
 D:\Facultate\ServiceAutoMVP\ServiceAutoMVP-Test\obj\Debug\net8.0-windows\ref\ServiceAutoMVP-Test.dll
+D:\Facultate\ServiceAutoMVP\ServiceAutoMVP-Test\obj\Debug\net8.0-windows\ServiceAutoMVP-Test.sourcelink.json

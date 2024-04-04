@@ -90,6 +90,7 @@ namespace ServiceAutoMVP.Presenter
                         this.iEmployeeGUI.SetMessage("Success!", "Adding was completed successfully!");
                         this.resetDoctorControls();
                         this.iEmployeeGUI.ResetDgvCarTable();
+                        this.LoadCarTable();
                     }
                     else
                         this.iEmployeeGUI.SetMessage("Failure!", "Adding was ended with failure!");
@@ -114,6 +115,7 @@ namespace ServiceAutoMVP.Presenter
                         this.resetDoctorControls();
                         this.iEmployeeGUI.ResetDgvCarTable();
                         this.iEmployeeGUI.SetMessage("Success!", "Deletion was completed successfully!");
+                        this.LoadCarTable();
                     }
                     else
                         this.iEmployeeGUI.SetMessage("Failure!", "Deletion was ended with failure!");
@@ -143,6 +145,7 @@ namespace ServiceAutoMVP.Presenter
                             this.iEmployeeGUI.SetMessage("Success!", "Updating was completed successfully!");
                             this.resetDoctorControls();
                             this.iEmployeeGUI.ResetDgvCarTable();
+                            this.LoadCarTable();
                         }
                         else
                             this.iEmployeeGUI.SetMessage("Failure!", "Updating was ended with failure!");

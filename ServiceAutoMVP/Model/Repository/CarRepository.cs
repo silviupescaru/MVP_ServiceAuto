@@ -63,22 +63,6 @@ namespace ServiceAutoMVP.Model.Repository
             return list;
         }
 
-        //public List<Car> CarList_Fuel(string searchedFuel)
-        //{
-        //    string selectSQL = "Select * from Car where fuel ='";
-        //    selectSQL += searchedFuel + "' order by owner";
-        //    DataTable carTable = this.repository.GetTable(selectSQL);
-        //    if (carTable == null || carTable.Rows.Count == 0)
-        //        return null;
-        //    List<Car> list = new List<Car>();
-        //    foreach (DataRow dr in carTable.Rows)
-        //    {
-        //        Car car = this.convertToCar(dr);
-        //        list.Add(car);
-        //    }
-        //    return list;
-        //}
-
         public List<Car> CarList_BrandFuel(string brand, string fuel)
         {
             string selectSQL = "Select * from [Car] where [fuel] ='";

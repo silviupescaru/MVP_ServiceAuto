@@ -89,6 +89,7 @@ namespace ServiceAutoMVP.Presenter
                         this.iAdministratorGUI.SetMessage("Success!", "Adding was completed successfully!");
                         this.resetUserControls();
                         this.iAdministratorGUI.ResetDgvUserTable();
+                        this.LoadUserTable();
                     }
                     else
                         this.iAdministratorGUI.SetMessage("Failure!", "Adding was ended with failure!");
@@ -113,6 +114,7 @@ namespace ServiceAutoMVP.Presenter
                         this.resetUserControls();
                         this.iAdministratorGUI.ResetDgvUserTable();
                         this.iAdministratorGUI.SetMessage("Success!", "Deletion was completed successfully!");
+                        this.LoadUserTable();
                     }
                     else
                         this.iAdministratorGUI.SetMessage("Failure!", "Deletion was ended with failure!");
@@ -142,6 +144,7 @@ namespace ServiceAutoMVP.Presenter
                             this.iAdministratorGUI.SetMessage("Success!", "Updating was completed successfully!");
                             this.resetUserControls();
                             this.iAdministratorGUI.ResetDgvUserTable();
+                            this.LoadUserTable();
                         }
                         else
                             this.iAdministratorGUI.SetMessage("Failure!", "Updating was ended with failure!");

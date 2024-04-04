@@ -113,7 +113,7 @@ namespace ServiceAutoMVP.Model.Repository
             try
             {
                 int ID = Convert.ToInt32(id);
-                string searchSQL = "Select * from [User] where ID = " + ID;
+                string searchSQL = "Select * from [User] where userID = " + ID;
                 DataTable userTable = this.repository.GetTable(searchSQL);
                 if (userTable == null || userTable.Rows.Count == 0)
                     return null;
